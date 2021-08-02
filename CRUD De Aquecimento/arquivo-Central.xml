@@ -1,0 +1,34 @@
+<CentralDeInformacoes>
+  <todosOsColaboradores>
+    <Colaborador>
+      <nome>Cleyton</nome>
+      <telefone>0</telefone>
+      <sexo>MASCULINO</sexo>
+      <email>o</email>
+    </Colaborador>
+    <Colaborador>
+      <nome>roberta</nome>
+      <telefone>0</telefone>
+      <sexo>FEMININO</sexo>
+      <email>k</email>
+    </Colaborador>
+  </todosOsColaboradores>
+  <serviços>
+    <Servico>
+      <id>1626582593405</id>
+      <nome>professor</nome>
+      <descricao>ensinar</descricao>
+      <duracaoMedia>0</duracaoMedia>
+    </Servico>
+  </serviços>
+  <associacao>
+    <Associador>
+      <colaborador reference="../../../todosOsColaboradores/Colaborador"/>
+      <servico reference="../../../serviços/Servico"/>
+    </Associador>
+    <Associador>
+      <colaborador reference="../../../todosOsColaboradores/Colaborador[2]"/>
+      <servico reference="../../../serviços/Servico"/>
+    </Associador>
+  </associacao>
+</CentralDeInformacoes>
